@@ -1,0 +1,15 @@
+@import "../../globalStyles/globalStyle.scss";
+.tab-content {
+  display: flex;
+
+  img {
+    margin-top: 10px;
+    height: 150px;
+  }
+  @include mobile {
+    flex-direction: column;
+    img {
+      width: 200px;
+    }
+  }
+}

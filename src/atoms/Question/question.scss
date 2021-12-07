@@ -1,0 +1,19 @@
+.Question {
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  width: 80%;
+  border: 2px solid #6735b9;
+  background-color: #e5d8fa;
+
+  svg {
+    color: #6735b9;
+  }
+
+  &__qs {
+    margin-left: 10px;
+    color: #6735b9;
+  }
+}

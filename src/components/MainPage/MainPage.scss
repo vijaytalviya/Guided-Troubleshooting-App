@@ -1,0 +1,12 @@
+.mainPage {
+  &__container {
+    width: 80%;
+    &__content {
+      font-size: 17px;
+    }
+  }
+
+  &__action {
+    display: flex;
+  }
+}

@@ -1,0 +1,31 @@
+.stepBlock {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -webkit-fill-available;
+  svg {
+    background-color: white;
+  }
+  .stepLabel {
+    font-weight: 600;
+  }
+}
+
+.stepBlock:not(:last-child)::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: auto;
+  background-color: #d2d2d7;
+  z-index: -3;
+  transition: all 0.2s ease-in;
+}
+.stepCompleted:after {
+  width: 100% !important;
+  background-color: #6735b9 !important;
+}

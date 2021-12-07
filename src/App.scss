@@ -1,0 +1,25 @@
+@import "./globalStyles/globalStyle.scss";
+.App {
+  height: 100%;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  > div {
+    width: 100%;
+  }
+
+  .content {
+    padding: 40px;
+  }
+  @include mobile {
+    width: 90%;
+    .content {
+      padding: 10px;
+    }
+  }
+}

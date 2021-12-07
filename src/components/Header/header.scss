@@ -1,0 +1,18 @@
+@import "../../globalStyles/globalStyle.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid $secondaryColor;
+
+  &__btn {
+    cursor: pointer;
+    position: relative;
+    color: #8d8d8d;
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+  .startOverBtn {
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,18 @@
+$primaryColor: #6735b9;
+$secondaryColor: #e5d8fa;
+$headingColor: #361968;
+$textColor: #6c6c6c;
+
+$mediumScreen: 720px;
+$smallScreen: 540px;
+
+@mixin tablet {
+  @media (max-width:#{$mediumScreen}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width:#{$smallScreen}) {
+    @content;
+  }
+}
