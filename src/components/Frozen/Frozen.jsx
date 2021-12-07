@@ -28,7 +28,10 @@ function Frozen(props) {
                 return <li>{item}</li>;
               })}
             </ul>
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-x-later-force-restart-animation.gif" />
+            <img
+              alt=""
+              src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-x-later-force-restart-animation.gif"
+            />
           </div>
         </Tab>
         <Tab title="iphone7/7+">
@@ -38,7 +41,10 @@ function Frozen(props) {
                 return <li>{item}</li>;
               })}
             </ul>
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7-force-restart.png" />
+            <img
+              alt=""
+              src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7-force-restart.png"
+            />
           </div>
         </Tab>
         <Tab title="iphone6 /6s">

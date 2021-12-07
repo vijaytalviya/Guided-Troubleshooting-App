@@ -36,7 +36,10 @@ function Step2() {
                 return <li>{item}</li>;
               })}
             </ol>
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-x-later-force-restart-animation.gif" />
+            <img
+              alt=""
+              src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-x-later-force-restart-animation.gif"
+            />
           </div>
         </Tab>
         <Tab title="iphone7/7+">
@@ -46,7 +49,10 @@ function Step2() {
                 return <li>{item}</li>;
               })}
             </ul>
-            <img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7-force-restart.png" />
+            <img
+              alt=""
+              src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone7-force-restart.png"
+            />
           </div>
         </Tab>
         <Tab title="iphone6 /6s">
@@ -64,6 +70,7 @@ function Step2() {
           Keep holding the buttons until you see the recovery mode screen.
           <br />
           <img
+            alt=""
             height="200px"
             src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iphone/iphone-x-later-restore-screen.png"
           />
@@ -72,6 +79,7 @@ function Step2() {
           When you get the option to restore or update, choose Update.
           <br />
           <img
+            alt=""
             width="100%"
             src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios14-macos-big-sur-recovery-mode-iphone-update.jpg"
           />

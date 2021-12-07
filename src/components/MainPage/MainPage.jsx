@@ -1,9 +1,5 @@
-import { useContext } from "react";
 import Action from "../../molecule/Action/Action";
-import Button from "../../atoms/Button/Button";
 import Heading from "../../atoms/Heading/Heading";
-import Question from "../../atoms/Question/Question";
-import { StepContext } from "../../Contexts/StepContext";
 import Frozen from "../Frozen/Frozen";
 import Stuck from "../Stuck/Stuck";
 import "./MainPage.scss";

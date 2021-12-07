@@ -17,7 +17,7 @@ export default function Step(props) {
           currentStep > props.index + 1 ? "stepCompleted" : ""
         }`}
       >
-        {currentStep == props.index + 1 ? (
+        {currentStep === props.index + 1 ? (
           <TimelapseIcon style={{ color: "#e5d8fa" }} />
         ) : currentStep > props.index ? (
           <CheckCircleIcon style={{ color: "#6735b9" }} />

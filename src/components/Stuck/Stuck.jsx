@@ -1,5 +1,4 @@
 import Heading from "../../atoms/Heading/Heading";
-import Tabs, { Tab } from "../../molecule/Tabs/Tabs";
 import Step2 from "./Step2";
 import Action from "../../molecule/Action/Action";
 
