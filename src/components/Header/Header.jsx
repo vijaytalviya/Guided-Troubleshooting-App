@@ -5,7 +5,6 @@ import ReplaySharpIcon from "@material-ui/icons/ReplaySharp";
 import "./header.scss";
 function Header(props) {
   const { setComponentStack, componentStack } = useContext(StepContext);
-  console.log("va", props.back, props.ystartOver);
   return (
     <div className="header">
       {props.back && (

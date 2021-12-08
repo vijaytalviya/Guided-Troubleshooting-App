@@ -7,8 +7,8 @@ function Action(props) {
     <div className="action">
       <Question content={props.qsContent} />
       <div className="action__buttons">
-        {props.btnContent.map((obj) => (
-          <Button content={obj.content} nextStep={obj.nextStep} />
+        {props.btnContent.map((obj, index) => (
+          <Button key={index} content={obj.content} nextStep={obj.nextStep} />
         ))}
       </div>
     </div>

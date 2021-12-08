@@ -5,11 +5,6 @@ import Finished from "../Frozen/Finished";
 import Form from "../Form/Form";
 import "./stuck.scss";
 function Step2() {
-  //   const content = [
-  //     "Keep holding the buttons until you see the recovery mode screen.",
-  //     "When you get the option to restore or update, choose Update.",
-  //     "Your computer will download the software for your device. If it takes more than 15 minutes, your device will exit recovery mode. Repeat steps 2-4.",
-  //   ];
   const Iphone8Steps = [
     "Press and quickly release the volume up button. Press and quickly release the volume down button. Then press and hold the side button.",
   ];
@@ -19,11 +14,7 @@ function Step2() {
   const iphone6Steps = [
     " Press and hold both the Home button and the side button or the top button at the same time.",
   ];
-  const content = [
-    "Keep holding the buttons until you see the recovery mode screen.",
-    "When you get the option to restore or update, choose Update.",
-    "Your computer will download the software for your device. If it takes more than 15 minutes, your device will exit recovery mode. Repeat steps 2-4.",
-  ];
+
   return (
     <div>
       <p>While your iPhone is connected , follow these steps:</p>
@@ -32,8 +23,8 @@ function Step2() {
         <Tab title="iPhone 8 or later">
           <div className="tab-content">
             <ol>
-              {Iphone8Steps.map((item) => {
-                return <li>{item}</li>;
+              {Iphone8Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ol>
             <img
@@ -45,8 +36,8 @@ function Step2() {
         <Tab title="iphone7/7+">
           <div className="tab-content">
             <ul>
-              {Iphone7Steps.map((item) => {
-                return <li>{item}</li>;
+              {Iphone7Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
             <img
@@ -58,8 +49,8 @@ function Step2() {
         <Tab title="iphone6 /6s">
           <div className="tab-content">
             <ul>
-              {iphone6Steps.map((item) => {
-                return <li>{item}</li>;
+              {iphone6Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
           </div>

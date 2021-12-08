@@ -11,7 +11,6 @@ function Step2() {
         <a
           style={{ color: "#0070c9" }}
           href="https://support.apple.com/en-us/HT201569#slow"
-          target="_blank"
         >
           follow these steps to check your hardware and charge your phone
         </a>

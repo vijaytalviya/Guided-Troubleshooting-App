@@ -24,8 +24,8 @@ function Frozen(props) {
         <Tab title="iPhone 8 or later">
           <div className="tab-content">
             <ul>
-              {Iphone8Steps.map((item) => {
-                return <li>{item}</li>;
+              {Iphone8Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
             <img
@@ -37,8 +37,8 @@ function Frozen(props) {
         <Tab title="iphone7/7+">
           <div className="tab-content">
             <ul>
-              {Iphone7Steps.map((item) => {
-                return <li>{item}</li>;
+              {Iphone7Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
             <img
@@ -50,8 +50,8 @@ function Frozen(props) {
         <Tab title="iphone6 /6s">
           <div className="tab-content">
             <ul>
-              {iphone6Steps.map((item) => {
-                return <li>{item}</li>;
+              {iphone6Steps.map((item, index) => {
+                return <li key={index}>{item}</li>;
               })}
             </ul>
           </div>

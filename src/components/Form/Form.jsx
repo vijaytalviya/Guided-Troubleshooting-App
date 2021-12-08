@@ -17,7 +17,7 @@ function Form() {
   const onChange = (e) => {
     const value = e.target.value.trim();
     if (e.target.type === "email") {
-      if ((value.match(mailformat) && value != null) || value != "") {
+      if ((value.match(mailformat) && value !== null) || value !== "") {
         setError({ ...error, email: false });
         setEmail(value);
       } else {
@@ -25,7 +25,6 @@ function Form() {
       }
     } else {
       if (value === null || value === "") {
-        console.log("run");
         setError({ ...error, name: true });
       } else {
         setError({ ...error, name: false });

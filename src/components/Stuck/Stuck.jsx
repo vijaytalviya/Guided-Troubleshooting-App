@@ -16,8 +16,8 @@ function Stuck(props) {
         these steps:
       </p>
       <ul>
-        {commonSteps.map((item) => (
-          <li>{item}</li>
+        {commonSteps.map((item, index) => (
+          <li key={index}>{item}</li>
         ))}
       </ul>
 
