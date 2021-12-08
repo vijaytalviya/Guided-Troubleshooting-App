@@ -35,7 +35,7 @@ function Form() {
   const onSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/users", {
+      .post("https://troubleshooting-guided-app.herokuapp.com/api/users", {
         name,
         email,
       })
